@@ -32,18 +32,27 @@
           <span className="text-xl font-semibold text-[#4d90c7]">Candia</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <Link href="#" className="text-[#4d90c7] hover:text-[#3a7198] transition-colors" prefetch={false}>
-            Nos produits
-          </Link>
-          <Link href="#" className="text-[#4d90c7] hover:text-[#3a7198] transition-colors" prefetch={false}>
-            Nos valeurs
-          </Link>
-          <Link href="#" className="text-[#4d90c7] hover:text-[#3a7198] transition-colors" prefetch={false}>
+
+          <Link href="apropos" className="text-[#4d90c7] hover:text-[#3a7198] transition-colors" prefetch={false}>
             À propos
           </Link>
-          <Link href="#" className="text-[#4d90c7] hover:text-[#3a7198] transition-colors" prefetch={false}>
+          
+          <Link href="produits" className="text-[#4d90c7] hover:text-[#3a7198] transition-colors" prefetch={false}>
+            Nos produits
+          </Link>
+          
+          <Link href="nutrition" className="text-[#4d90c7] hover:text-[#3a7198] transition-colors" prefetch={false}>
+            Nutrition
+          </Link>
+
+          <Link href="media" className="text-[#4d90c7] hover:text-[#3a7198] transition-colors" prefetch={false}>
+            Media
+          </Link>
+          
+          <Link href="contact" className="text-[#4d90c7] hover:text-[#3a7198] transition-colors" prefetch={false}>
             Contact
           </Link>
+
         </nav>
         
         <button variant="outline" className="hidden md:inline-flex">
