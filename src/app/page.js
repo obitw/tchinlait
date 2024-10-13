@@ -44,7 +44,7 @@ import Header from "./composants/Header";
         </div>
         <div>
           <img
-            src="https://placehold.co/600x400"
+            src="img/20ans.png"
             alt="Candia"
             width={600}
             height={400}
@@ -59,7 +59,7 @@ import Header from "./composants/Header";
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://placehold.co/600x400"
+                src="img/lait-frais.png"
                 alt="Produit 1"
                 width={400}
                 height={300}
@@ -75,7 +75,7 @@ import Header from "./composants/Header";
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://placehold.co/600x400"
+                src="img/jus.jpg"
                 alt="Produit 2"
                 width={400}
                 height={300}
@@ -83,15 +83,15 @@ import Header from "./composants/Header";
                 style={{ aspectRatio: "400/300", objectFit: "cover" }}
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#4d90c7]">Yaourts</h3>
+                <h3 className="text-xl font-semibold text-[#4d90c7]">Boissons</h3>
                 <p className="text-[#6c7a89] mt-2">
-                  Nos yaourts sont faits avec du lait frais et des fruits de saison.
+                Nos boissons sont préparées avec des ingrédients naturels pour une fraîcheur et un goût authentiques.
                 </p>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://placehold.co/600x400"
+                src="img/twist.png"
                 alt="Produit 3"
                 width={400}
                 height={300}
@@ -99,8 +99,10 @@ import Header from "./composants/Header";
                 style={{ aspectRatio: "400/300", objectFit: "cover" }}
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#4d90c7]">Crème fraîche</h3>
-                <p className="text-[#6c7a89] mt-2">Notre crème fraîche est idéale pour vos recettes.</p>
+                <h3 className="text-xl font-semibold text-[#4d90c7]">Twist</h3>
+                <p className="text-[#6c7a89] mt-2">
+                Boissons aromatisées spécialement conçues pour les enfants, pour un moment de plaisir et de fraîcheur.
+                </p>
               </div>
             </div>
           </div>
@@ -114,7 +116,7 @@ import Header from "./composants/Header";
               <LeafIcon className="h-12 w-12 text-[#4d90c7]" />
               <h3 className="text-xl font-semibold text-[#4d90c7] mt-4">Durabilité</h3>
               <p className="text-[#6c7a89] mt-2">
-                Nous nous engageons à produire de manière durable pour préserver l'environnement.
+                Nous nous engageons à produire de manière durable pour préserver l&apos;environnement.
               </p>
             </div>
             <div className="bg-[#e6f0f9] rounded-lg p-8">
@@ -135,7 +137,7 @@ import Header from "./composants/Header";
               <UsersIcon className="h-12 w-12 text-[#4d90c7]" />
               <h3 className="text-xl font-semibold text-[#4d90c7] mt-4">Proximité</h3>
               <p className="text-[#6c7a89] mt-2">
-                Nous sommes à l'écoute de nos clients pour mieux répondre à leurs attentes.
+                Nous sommes à l&apos;écoute de nos clients pour mieux répondre à leurs attentes.
               </p>
             </div>
           </div>
