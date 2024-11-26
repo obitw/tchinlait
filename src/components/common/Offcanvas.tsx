@@ -1,12 +1,11 @@
-
-import MobileMenu from '@/layouts/headers/menu/MobileMenu'
-import Link from 'next/link'
-import React from 'react'
+import MobileMenu from "@/layouts/headers/menu/MobileMenu";
+import Link from "next/link";
+import React from "react";
 
 type Props = {
-  open: boolean,
-  setOpen: React.Dispatch<React.SetStateAction<boolean>>
-}
+  open: boolean;
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+};
 
 export default function Offcanvas({ open, setOpen }: Props) {
   return (
@@ -18,7 +17,7 @@ export default function Offcanvas({ open, setOpen }: Props) {
               <div className="offcanvas__top mb-4 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/favcion.png" alt="logo-img" />
+                    <img src="assets/img/logo/candia-logo.png" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="offcanvas__close">
@@ -31,14 +30,16 @@ export default function Offcanvas({ open, setOpen }: Props) {
                 <MobileMenu />
               </div>
               <div className="offcanvas__contact">
-                <h4>Contact Info</h4>
+                <h4>Informations de contact</h4>
                 <ul>
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon">
                       <i className="fal fa-map-marker-alt"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a target="_blank" href="#">Us 1216, road 45 house of street</a>
+                      <a target="_blank" href="#">
+                        10 Rue de l'Industrie, Zone Industrielle, Alger, Algérie
+                      </a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -46,8 +47,9 @@ export default function Offcanvas({ open, setOpen }: Props) {
                       <i className="fal fa-envelope"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:demo23yourmail.com"><span
-                        className="mailto:demo23yourmail.com">demo23yourmail.com</span></a>
+                      <a href="mailto:contact@candiaalgerie.com">
+                        contact@candiaalgerie.com
+                      </a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -55,7 +57,9 @@ export default function Offcanvas({ open, setOpen }: Props) {
                       <i className="fal fa-clock"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a target="_blank" href="#">Mod-friday, 06am -02pm</a>
+                      <a target="_blank" href="#">
+                        Lun-Ven, 08h - 17h
+                      </a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -63,29 +67,40 @@ export default function Offcanvas({ open, setOpen }: Props) {
                       <i className="far fa-phone"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">(307) 555-0133</a>
+                      <a href="tel:+213560000000">+213 56 00 00 00</a>
                     </div>
                   </li>
                 </ul>
                 <div className="header-button mt-4 mb-4">
                   <Link href="/contact" className="cmn-btn">
-                    Get A Quote
+                    Demander un devis
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>
-                <h4>Social Media</h4>
+                <h4>Réseaux sociaux</h4>
                 <div className="social-icon d-flex align-items-center">
-                  <a href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a href="#"><i className="fab fa-twitter"></i></a>
-                  <a href="#"><i className="fab fa-youtube"></i></a>
-                  <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                  <a href="#">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i className="fab fa-youtube"></i>
+                  </a>
+                  <a href="#">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className={`offcanvas__overlay ${open ? "overlay-open" : ""}`} onClick={() => setOpen(false)}></div>
+      <div
+        className={`offcanvas__overlay ${open ? "overlay-open" : ""}`}
+        onClick={() => setOpen(false)}
+      ></div>
     </>
-  )
+  );
 }

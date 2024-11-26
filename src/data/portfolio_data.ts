@@ -1,5 +1,3 @@
-
-
 import portfolio_img_1 from "@/assets/img/gallery/feature1.jpg";
 import portfolio_img_2 from "@/assets/img/gallery/feature2.jpg";
 import portfolio_img_3 from "@/assets/img/gallery/feature3.jpg";
@@ -19,104 +17,116 @@ interface PortfolioDataType {
   description: string;
 }
 
-const portfolio_data:PortfolioDataType[] = [
+const portfolio_data: PortfolioDataType[] = [
   {
     id: 1,
-    title: "Tomato",
+    title: "Lait frais",
     price: 1200,
     image: portfolio_img_1,
-    category: "Fresh",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Lait frais de qualité, directement issu de nos fermes partenaires.",
   },
   {
     id: 2,
-    title: "Meat",
+    title: "Yaourt nature",
     price: 80,
     image: portfolio_img_2,
-    category: "Organic",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Yaourts naturels, riches en probiotiques pour une digestion saine.",
   },
   {
     id: 3,
-    title: "Blossomed",
+    title: "Fromage crémeux",
     price: 45,
     image: portfolio_img_3,
-    category: "Vegetables",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Fromage crémeux fabriqué selon des méthodes traditionnelles et naturelles.",
   },
   {
     id: 4,
-    title: "Egg",
+    title: "Beurre",
     price: 44,
     image: portfolio_img_4,
-    category: "Vegetables",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Beurre frais, préparé à partir du lait de vaches nourries avec des aliments naturels.",
   },
   {
     id: 5,
-    title: "Corning",
+    title: "Crème fraîche",
     price: 80,
     image: portfolio_img_5,
-    category: "Organic",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Crème fraîche d'excellence pour enrichir vos recettes culinaires.",
   },
   {
     id: 6,
-    title: "Kales",
+    title: "Lait de vache",
     price: 45,
     image: portfolio_img_6,
-    category: "Fresh",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Lait de vache pasteurisé, garantissant fraîcheur et qualité pour toute la famille.",
   },
   // data repeat
   {
     id: 1,
-    title: "Tomato",
+    title: "Lait frais",
     price: 120,
     image: portfolio_img_7,
-    category: "Fresh",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Lait frais de qualité, directement issu de nos fermes partenaires.",
   },
   {
     id: 2,
-    title: "Meat",
+    title: "Yaourt nature",
     price: 80,
     image: portfolio_img_8,
-    category: "Organic",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Yaourts naturels, riches en probiotiques pour une digestion saine.",
   },
   {
     id: 3,
-    title: "Blossomed",
+    title: "Fromage crémeux",
     price: 45,
     image: portfolio_img_3,
-    category: "Vegetables",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Fromage crémeux fabriqué selon des méthodes traditionnelles et naturelles.",
   },
   {
     id: 4,
-    title: "Egg",
+    title: "Beurre",
     price: 44,
     image: portfolio_img_4,
-    category: "Vegetables",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Beurre frais, préparé à partir du lait de vaches nourries avec des aliments naturels.",
   },
   {
     id: 5,
-    title: "Corning",
+    title: "Crème fraîche",
     price: 80,
     image: portfolio_img_5,
-    category: "Organic",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Crème fraîche d'excellence pour enrichir vos recettes culinaires.",
   },
   {
     id: 6,
-    title: "Kales",
+    title: "Lait de vache",
     price: 45,
     image: portfolio_img_6,
-    category: "Fresh",
-    description: "Agriculture farming are the essential",
+    category: "Produits laitiers",
+    description:
+      "Lait de vache pasteurisé, garantissant fraîcheur et qualité pour toute la famille.",
   },
-]
+];
 
-export default portfolio_data
+export default portfolio_data;

@@ -1,14 +1,12 @@
-
-
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 type PropsType = {
-  title: string
-  subtitle: string
-}
+  title: string;
+  subtitle: string;
+};
 
-export default function Breadcrumnd({title, subtitle}: PropsType) {
+export default function Breadcrumnd({ title, subtitle }: PropsType) {
   return (
     <>
       <section className="breadcrumnd-banner overflow-hidden">
@@ -20,24 +18,23 @@ export default function Breadcrumnd({title, subtitle}: PropsType) {
               </h1>
               <ul className="bread-listing">
                 <li>
-                  <Link href="/">
-                    Home
-                  </Link>
+                  <Link href="/">Accueil</Link>
                 </li>
                 <li>
                   <i className="fa-solid fa-angle-right"></i>
                 </li>
-                <li>
-                  {subtitle}
-                </li>
+                <li>{subtitle}</li>
               </ul>
             </div>
             <div className="bread-thumb d-sm-block d-none">
-              <img src="assets/img/about/tt-slice.png" alt="img" />
+              <img
+                src="assets/img/about/tt-slice.png"
+                alt="image représentant les produits laitiers"
+              />
             </div>
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }

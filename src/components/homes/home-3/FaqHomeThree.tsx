@@ -1,7 +1,7 @@
-"use client"
-import faq_data from '@/data/faq_data';
-import VideoPopup from '@/modals/VideoPopup'
-import React, { useState } from 'react'
+"use client";
+import faq_data from "@/data/faq_data";
+import VideoPopup from "@/modals/VideoPopup";
+import React, { useState } from "react";
 
 export default function FaqHomeThree() {
   const [isVideoOpen, setIsVideoOpen] = useState<boolean>(false);
@@ -9,9 +9,7 @@ export default function FaqHomeThree() {
 
   const toggle = (i: number) => {
     setIsOpen(i === isOpen ? 0 : i);
-  }
-
-
+  };
 
   return (
     <>
@@ -21,28 +19,33 @@ export default function FaqHomeThree() {
             <div className="col-lg-5 col-md-6">
               <div className="faq-content-left">
                 <div className="section-title mb-40">
-                  <h5 className="p1-clr wow fadeInLeft text-uppercase" data-wow-delay="0.4s">
+                  <h5
+                    className="p1-clr wow fadeInLeft text-uppercase"
+                    data-wow-delay="0.4s"
+                  >
                     FAQ
                   </h5>
                   <h2 className="wow fadeInDown" data-wow-delay=".3s">
-                    How often should I water my Farming?
+                    À quelle fréquence faut-il nourrir le bétail pour une
+                    production laitière optimale ?
                   </h2>
                   <p>
-                    It is a long established fact that a reader will be distracted by the readable content
-                    of a page when looking at its
-                    layout. Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                    their default model text
+                    Il est bien connu qu'un producteur laitier doit suivre une
+                    routine stricte pour garantir une production de lait de
+                    qualité. Il est essentiel de maintenir un régime alimentaire
+                    adapté pour les vaches laitières tout au long de l'année.
+                    Découvrez nos conseils pour améliorer la production et la
+                    santé de votre élevage.
                   </p>
                   <div className="faq-watch">
                     <a
                       onClick={() => setIsVideoOpen(true)}
                       style={{ cursor: "pointer" }}
-                      className="video-cmn d-center video-popup">
+                      className="video-cmn d-center video-popup"
+                    >
                       <i className="fa-solid fa-play"></i>
                     </a>
-                    <h5>
-                      Watch Video
-                    </h5>
+                    <h5>Regardez notre vidéo</h5>
                   </div>
                 </div>
               </div>
@@ -50,21 +53,27 @@ export default function FaqHomeThree() {
             <div className="col-lg-6 col-md-6 order-md-0 order-1">
               <div className="tab-faq faq">
                 <div className="accordion-section d-grid gap-xxl-4 gap-lg-3 gap-2">
-
                   {faq_data.map((item, i) => (
-                    <div key={i} className={`accordion-single ${isOpen === i ? "active" : ""}`}>
+                    <div
+                      key={i}
+                      className={`accordion-single ${
+                        isOpen === i ? "active" : ""
+                      }`}
+                    >
                       <h5 className="header-area" onClick={() => toggle(i)}>
                         <button
                           className="accordion-btn d-flex align-items-center d-flex position-relative w-100"
-                          type="button">
+                          type="button"
+                        >
                           {item.question}
                         </button>
                       </h5>
-                      <div className="content-area" style={{ display: isOpen === i ? "block" : "none" }}>
+                      <div
+                        className="content-area"
+                        style={{ display: isOpen === i ? "block" : "none" }}
+                      >
                         <div className="content-body">
-                          <p>
-                            {item.answer}
-                          </p>
+                          <p>{item.answer}</p>
                         </div>
                       </div>
                     </div>
@@ -75,7 +84,11 @@ export default function FaqHomeThree() {
           </div>
         </div>
 
-        <img src="assets/img/element/faq-element.png" alt="img" className="faq-element" />
+        <img
+          src="assets/img/element/faq-element.png"
+          alt="img"
+          className="faq-element"
+        />
       </section>
 
       {/* video modal start */}
@@ -86,5 +99,5 @@ export default function FaqHomeThree() {
       />
       {/* video modal end  */}
     </>
-  )
+  );
 }

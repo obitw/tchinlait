@@ -1,8 +1,7 @@
-
-"use client"
-import React from 'react'
-import { Autoplay, Navigation, Pagination } from 'swiper/modules'
-import { Swiper, SwiperSlide } from 'swiper/react'
+"use client";
+import React from "react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function TestimonialHomeThree() {
   return (
@@ -14,10 +13,10 @@ export default function TestimonialHomeThree() {
               <div className="testimonial-common-wrapper testimonial-wrapperv02 position-relative">
                 <div className="section-title mb-50">
                   <h5 className="p2-clr wow fadeInLeft" data-wow-delay="0.4s">
-                    Testimonial
+                    Témoignages
                   </h5>
                   <h2 className="wow fadeInDown" data-wow-delay=".3s">
-                    Farm fresh goodness <br /> for all
+                    La fraîcheur de la ferme <br /> pour tous
                   </h2>
                 </div>
                 <Swiper
@@ -38,20 +37,16 @@ export default function TestimonialHomeThree() {
                     clickable: true,
                   }}
                   modules={[Autoplay, Pagination, Navigation]}
-                  className="swiper testimonial-slidewrap01 ">
-
+                  className="swiper testimonial-slidewrap01 "
+                >
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonail-common-items stylev03">
                       <div className="d-lg-flex d-grid justify-content-between">
                         <div className="review-man">
                           <img src="assets/img/testimonial/re2.png" alt="img" />
                           <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
+                            <h3>Nadia Benali</h3>
+                            <span>Directrice Qualité</span>
                           </div>
                         </div>
                         <div className="stars">
@@ -63,10 +58,12 @@ export default function TestimonialHomeThree() {
                         </div>
                       </div>
                       <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
+                        Chez Candia Algérie, nous mettons un point d'honneur à
+                        offrir des produits laitiers d'une qualité
+                        irréprochable. Grâce à nos méthodes de production
+                        modernes et respectueuses de l'environnement, nous
+                        garantissons des produits frais, savoureux et nutritifs,
+                        pour le bien-être de nos consommateurs.
                       </p>
                       <div className="dot-cmn"></div>
                     </div>
@@ -77,12 +74,8 @@ export default function TestimonialHomeThree() {
                         <div className="review-man">
                           <img src="assets/img/testimonial/re2.png" alt="img" />
                           <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
+                            <h3>Mohamed Taïbi</h3>
+                            <span>Agriculteur Partenaire</span>
                           </div>
                         </div>
                         <div className="stars">
@@ -94,10 +87,11 @@ export default function TestimonialHomeThree() {
                         </div>
                       </div>
                       <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
+                        En tant que partenaire de Candia Algérie, je suis fier
+                        de fournir du lait de haute qualité, directement de
+                        notre ferme à vos produits. Leur engagement envers
+                        l'excellence et la durabilité me motive à contribuer à
+                        cette belle aventure.
                       </p>
                       <div className="dot-cmn"></div>
                     </div>
@@ -108,12 +102,8 @@ export default function TestimonialHomeThree() {
                         <div className="review-man">
                           <img src="assets/img/testimonial/re2.png" alt="img" />
                           <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
+                            <h3>Yasmine Chouikh</h3>
+                            <span>Responsable Production</span>
                           </div>
                         </div>
                         <div className="stars">
@@ -125,10 +115,11 @@ export default function TestimonialHomeThree() {
                         </div>
                       </div>
                       <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
+                        La production chez Candia Algérie est un processus
+                        rigoureux où chaque étape est contrôlée pour garantir
+                        une qualité optimale. Nous avons à cœur de respecter les
+                        normes les plus strictes pour offrir des produits
+                        laitiers sains et délicieux à nos clients.
                       </p>
                       <div className="dot-cmn"></div>
                     </div>
@@ -139,12 +130,8 @@ export default function TestimonialHomeThree() {
                         <div className="review-man">
                           <img src="assets/img/testimonial/re2.png" alt="img" />
                           <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
+                            <h3>Abdelkader Djebli</h3>
+                            <span>Responsable Distribution</span>
                           </div>
                         </div>
                         <div className="stars">
@@ -156,36 +143,42 @@ export default function TestimonialHomeThree() {
                         </div>
                       </div>
                       <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
+                        Grâce à un réseau de distribution étendu, les produits
+                        laitiers Candia Algérie arrivent rapidement et dans les
+                        meilleures conditions aux consommateurs. La fraîcheur et
+                        la qualité sont nos priorités à chaque étape de la
+                        chaîne.
                       </p>
                       <div className="dot-cmn"></div>
                     </div>
                   </SwiperSlide>
-
                 </Swiper>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
-              <div className="testimonial-thumbv3 w-100 wow fadeInDown" data-wow-delay=".4s">
-                <img src="assets/img/testimonial/testimonial-thumbv3.png" alt="img" className="w-100 mimg" />
+              <div
+                className="testimonial-thumbv3 w-100 wow fadeInDown"
+                data-wow-delay=".4s"
+              >
+                <img
+                  src="assets/img/testimonial/testimonial-thumbv3.png"
+                  alt="img"
+                  className="w-100 mimg"
+                />
                 <div className="testimonial-count">
                   <img src="assets/img/icon/apple-count.png" alt="img" />
                   <div className="cont">
                     <h3>
-                      <span className="count">15</span>+ Years
+                      <span className="count">15</span>+ Ans
                     </h3>
-                    <p>Happy Customer</p>
+                    <p>De Clients Satisfaits</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </section>
     </>
-  )
+  );
 }

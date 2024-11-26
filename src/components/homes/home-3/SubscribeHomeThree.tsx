@@ -1,6 +1,5 @@
-
-"use client"
-import React from 'react'
+"use client";
+import React from "react";
 
 export default function SubscribeHomeThree() {
   return (
@@ -12,16 +11,24 @@ export default function SubscribeHomeThree() {
               <div className="row g-4 align-items-end justify-content-between">
                 <div className="col-lg-6 col-md-6 mb-xl-5 pb-xl-4">
                   <div className="get-element">
-                    <img src="assets/img/element/get-element.png" alt="img" className="d-md-block d-none" />
+                    <img
+                      src="assets/img/element/get-element.png"
+                      alt="img"
+                      className="d-md-block d-none"
+                    />
                   </div>
                   <div className="subs-contentv3">
                     <h2>
-                      Get Update <span>Subscribe</span> <br /> to Newsletter
+                      Abonnez-vous pour <span>les dernières mises à jour</span>{" "}
+                      <br /> sur nos produits laitiers
                     </h2>
-                    <form onSubmit={(e) => e.preventDefault()} className="subscribe-form03 flex-xl-nowrap flex-wrap">
-                      <input type="text" placeholder="Enter Your Email" />
+                    <form
+                      onSubmit={(e) => e.preventDefault()}
+                      className="subscribe-form03 flex-xl-nowrap flex-wrap"
+                    >
+                      <input type="text" placeholder="Entrez votre e-mail" />
                       <button type="submit" className="cmn-btn text-capitalize">
-                        Subcribe
+                        S'abonner
                         <i className="fa-solid fa-arrow-right"></i>
                       </button>
                     </form>
@@ -30,35 +37,48 @@ export default function SubscribeHomeThree() {
                 <div className="col-lg-6 col-md-6">
                   <div className="conatact-box common-contact-inner position-relative">
                     <div className="section-title mb-40">
-                      <h5 className="p1-clr wow fadeInLeft" data-wow-delay="0.4s">
+                      <h5
+                        className="p1-clr wow fadeInLeft"
+                        data-wow-delay="0.4s"
+                      >
                         Contact
                       </h5>
-                      <h2>
-                        Get Touch Here
-                      </h2>
+                      <h2>Prenez contact avec nous</h2>
                     </div>
-                    <form onSubmit={(e) => e.preventDefault()} className="row g-xl-4 g-3">
+                    <form
+                      onSubmit={(e) => e.preventDefault()}
+                      className="row g-xl-4 g-3"
+                    >
                       <div className="col-lg-6">
-                        <input type="text" placeholder="Name" />
+                        <input type="text" placeholder="Nom" />
                       </div>
                       <div className="col-lg-6">
                         <input type="email" placeholder="E-mail" />
                       </div>
                       <div className="col-lg-12">
-                        <input type="text" placeholder="Subject" />
+                        <input type="text" placeholder="Objet" />
                       </div>
                       <div className="col-lg-12">
-                        <textarea name="message" placeholder="Message"></textarea>
+                        <textarea
+                          name="message"
+                          placeholder="Message"
+                        ></textarea>
                       </div>
                       <div className="col-lg-6">
-                        <button type="submit" className="cmn-btn text-capitalize">
-                          Submit Now
+                        <button
+                          type="submit"
+                          className="cmn-btn text-capitalize"
+                        >
+                          Envoyer maintenant
                         </button>
                       </div>
                     </form>
 
-                    <img src="assets/img/element/sun-element.png" alt="img"
-                      className="sun-element d-xl-block d-none" />
+                    <img
+                      src="assets/img/element/sun-element.png"
+                      alt="img"
+                      className="sun-element d-xl-block d-none"
+                    />
                   </div>
                 </div>
               </div>
@@ -67,5 +87,5 @@ export default function SubscribeHomeThree() {
         </div>
       </div>
     </>
-  )
+  );
 }

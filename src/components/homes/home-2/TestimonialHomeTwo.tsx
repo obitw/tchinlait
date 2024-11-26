@@ -1,7 +1,7 @@
-"use client"
-import React from 'react'
-import { Autoplay, Navigation, Pagination } from 'swiper/modules'
-import { Swiper, SwiperSlide } from 'swiper/react'
+"use client";
+import React from "react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function TestimonialHomeTwo() {
   return (
@@ -13,10 +13,11 @@ export default function TestimonialHomeTwo() {
               <div className="testimonial-common-wrapper testimonial-wrapperv02 position-relative mb-40">
                 <div className="section-title mb-50">
                   <h5 className="p1-clr wow fadeInLeft" data-wow-delay="0.4s">
-                    Testimonial
+                    Témoignage
                   </h5>
                   <h2 className="wow fadeInDown" data-wow-delay=".3s">
-                    Growing strong feeding farming futures
+                    Une croissance solide grâce à des produits laitiers de
+                    qualité
                   </h2>
                 </div>
                 <Swiper
@@ -37,23 +38,23 @@ export default function TestimonialHomeTwo() {
                     clickable: true,
                   }}
                   modules={[Autoplay, Pagination, Navigation]}
-                  className="swiper testimonial-slidewrap01">
-
+                  className="swiper testimonial-slidewrap01"
+                >
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonail-common-items">
                       <div className="d-flex justify-content-between">
                         <div className="review-man">
                           <img src="assets/img/testimonial/re2.png" alt="img" />
                           <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
+                            <h3>Ahmed Boudiaf</h3>
+                            <span>Responsable Production Laitière</span>
                           </div>
                         </div>
-                        <img src="assets/img/icon/quote-leftp2.svg" alt="icon" className="qute" />
+                        <img
+                          src="assets/img/icon/quote-leftp2.svg"
+                          alt="icon"
+                          className="qute"
+                        />
                       </div>
                       <div className="stars">
                         <i className="fa-solid fa-star"></i>
@@ -63,10 +64,12 @@ export default function TestimonialHomeTwo() {
                         <i className="fa-solid fa-star"></i>
                       </div>
                       <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
+                        Candia Algérie s'engage à produire des produits laitiers
+                        de haute qualité, respectueux des normes les plus
+                        strictes. Grâce à des processus de production avancés et
+                        un contrôle rigoureux, nous garantissons une qualité
+                        constante pour satisfaire les besoins de nos
+                        consommateurs.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -76,15 +79,15 @@ export default function TestimonialHomeTwo() {
                         <div className="review-man">
                           <img src="assets/img/testimonial/re2.png" alt="img" />
                           <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
+                            <h3>Sofia Khelifi</h3>
+                            <span>Directrice Qualité</span>
                           </div>
                         </div>
-                        <img src="assets/img/icon/quote-leftp2.svg" alt="icon" className="qute" />
+                        <img
+                          src="assets/img/icon/quote-leftp2.svg"
+                          alt="icon"
+                          className="qute"
+                        />
                       </div>
                       <div className="stars">
                         <i className="fa-solid fa-star"></i>
@@ -94,10 +97,11 @@ export default function TestimonialHomeTwo() {
                         <i className="fa-solid fa-star"></i>
                       </div>
                       <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
+                        La qualité est au cœur de tout ce que nous faisons. De
+                        la collecte du lait à sa transformation, nous veillons à
+                        ce que chaque produit respecte nos standards de qualité
+                        et de sécurité, garantissant ainsi la satisfaction de
+                        nos clients.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -107,15 +111,15 @@ export default function TestimonialHomeTwo() {
                         <div className="review-man">
                           <img src="assets/img/testimonial/re2.png" alt="img" />
                           <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
+                            <h3>Rachid Belkacem</h3>
+                            <span>Responsable Développement Durable</span>
                           </div>
                         </div>
-                        <img src="assets/img/icon/quote-leftp2.svg" alt="icon" className="qute" />
+                        <img
+                          src="assets/img/icon/quote-leftp2.svg"
+                          alt="icon"
+                          className="qute"
+                        />
                       </div>
                       <div className="stars">
                         <i className="fa-solid fa-star"></i>
@@ -125,10 +129,11 @@ export default function TestimonialHomeTwo() {
                         <i className="fa-solid fa-star"></i>
                       </div>
                       <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
+                        Chez Candia Algérie, nous nous engageons à respecter
+                        l'environnement en intégrant des pratiques durables dans
+                        notre processus de production. Nous nous efforçons de
+                        préserver les ressources naturelles tout en offrant des
+                        produits laitiers de qualité supérieure.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -138,15 +143,15 @@ export default function TestimonialHomeTwo() {
                         <div className="review-man">
                           <img src="assets/img/testimonial/re2.png" alt="img" />
                           <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
+                            <h3>Nadia Amrane</h3>
+                            <span>Responsable R&D</span>
                           </div>
                         </div>
-                        <img src="assets/img/icon/quote-leftp2.svg" alt="icon" className="qute" />
+                        <img
+                          src="assets/img/icon/quote-leftp2.svg"
+                          alt="icon"
+                          className="qute"
+                        />
                       </div>
                       <div className="stars">
                         <i className="fa-solid fa-star"></i>
@@ -156,81 +161,17 @@ export default function TestimonialHomeTwo() {
                         <i className="fa-solid fa-star"></i>
                       </div>
                       <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
+                        Grâce à l'innovation continue dans la recherche et le
+                        développement, Candia Algérie offre une gamme variée de
+                        produits laitiers, toujours plus nutritifs et adaptés
+                        aux attentes de nos consommateurs.
                       </p>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonail-common-items">
-                      <div className="d-flex justify-content-between">
-                        <div className="review-man">
-                          <img src="assets/img/testimonial/re2.png" alt="img" />
-                          <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
-                          </div>
-                        </div>
-                        <img src="assets/img/icon/quote-leftp2.svg" alt="icon" className="qute" />
-                      </div>
-                      <div className="stars">
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                      </div>
-                      <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
-                      </p>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonail-common-items">
-                      <div className="d-flex justify-content-between">
-                        <div className="review-man">
-                          <img src="assets/img/testimonial/re2.png" alt="img" />
-                          <div className="cont">
-                            <h3>
-                              Leslie Alexander
-                            </h3>
-                            <span>
-                              Nursing Assistant
-                            </span>
-                          </div>
-                        </div>
-                        <img src="assets/img/icon/quote-leftp2.svg" alt="icon" className="qute" />
-                      </div>
-                      <div className="stars">
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                      </div>
-                      <p>
-                        Financial planners help people to knowledge in about how to invest and save
-                        their moneye the most efficient way in to
-                        eve.planners Financial planners help people to my destin knowledge in about
-                        design
-                      </p>
-                    </div>
-                  </SwiperSlide>
-
                 </Swiper>
               </div>
               <div className="text-center">
-                <div
-                  className="common-slidebtn d-inline-flex align-items-center justify-content-center gap-xl-3 gap-2">
+                <div className="common-slidebtn d-inline-flex align-items-center justify-content-center gap-xl-3 gap-2">
                   <button className="cmn-prev1 cust-swiper2">
                     <i className="fa-solid fa-angle-left"></i>
                   </button>
@@ -242,23 +183,29 @@ export default function TestimonialHomeTwo() {
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
-              <div className="testimonial-thumbv2 w-100 wow fadeInDown" data-wow-delay=".4s">
-                <img src="assets/img/testimonial/testimonial-thumb2.png" alt="img" className="w-100" />
+              <div
+                className="testimonial-thumbv2 w-100 wow fadeInDown"
+                data-wow-delay=".4s"
+              >
+                <img
+                  src="assets/img/testimonial/testimonial-thumb2.png"
+                  alt="img"
+                  className="w-100"
+                />
                 <div className="testimonial-count">
                   <img src="assets/img/icon/apple-count.png" alt="img" />
                   <div className="cont">
                     <h3>
                       <span className="count">4</span>k+
                     </h3>
-                    <p>Happy Customer</p>
+                    <p>Clients satisfaits</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </section>
     </>
-  )
+  );
 }

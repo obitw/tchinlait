@@ -1,9 +1,8 @@
-
-"use client"
-import Link from 'next/link';
-import Image from 'next/image';
-import React, { useState } from 'react'
-import ImagePopup from '@/modals/ImagePopup';
+"use client";
+import Link from "next/link";
+import Image from "next/image";
+import React, { useState } from "react";
+import ImagePopup from "@/modals/ImagePopup";
 
 import masonry_1 from "@/assets/img/gallery/gl1.jpg";
 import masonry_2 from "@/assets/img/gallery/gl2.jpg";
@@ -20,19 +19,11 @@ const masonry_data = [
     img: masonry_2,
     cls: 5,
   },
-]
-const masonry_data2 = [
-  { img: masonry_3 },
-  { img: masonry_4 },
-]
-const masonry_data3 = [
-  { img: masonry_5 },
-]
-
-
+];
+const masonry_data2 = [{ img: masonry_3 }, { img: masonry_4 }];
+const masonry_data3 = [{ img: masonry_5 }];
 
 export default function GalleryHomeOne() {
-
   // photoIndex
   const [photoIndex, setPhotoIndex] = useState(0);
   const [photoIndex2, setPhotoIndex2] = useState(0);
@@ -59,22 +50,18 @@ export default function GalleryHomeOne() {
   const image2 = masonry_data2.map((item) => item.img.src);
   const image3 = masonry_data3.map((item) => item.img.src);
 
-
-
-
   return (
     <>
-
       <section className="gallery-section p100-bg section-padding">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xxl-6 col-xl-7 col-md-8 col-sm-11">
               <div className="section-title mb-60 text-center">
                 <h5 className="p1-clr wow fadeInLeft" data-wow-delay="0.4s">
-                  OUR GALLARY
+                  NOTRE GALERIE
                 </h5>
                 <h2 className="wow fadeInDown" data-wow-delay=".3s">
-                  Bringing natures bounty to your plate
+                  Apportant le meilleur de la nature dans vos assiettes
                 </h2>
               </div>
             </div>
@@ -86,22 +73,23 @@ export default function GalleryHomeOne() {
                 <a
                   style={{ cursor: "pointer" }}
                   onClick={() => handleImagePopup(i)}
-                  className="gallery-com-thumb first-item img-popup w-100 round20">
+                  className="gallery-com-thumb first-item img-popup w-100 round20"
+                >
                   <Image src={item.img} alt="img" className="round20" />
                 </a>
               </div>
-
             ))}
 
             <div className="d-flex flex-sm-nowrap flex-wrap justify-content-between gap-lg-4 gap-3">
               {masonry_data2.map((item, i) => (
-                <a key={i}
+                <a
+                  key={i}
                   style={{ cursor: "pointer" }}
                   onClick={() => handleImagePopup2(i)}
-                  className="gallery-com-thumb secound img-popup w-100 round20">
+                  className="gallery-com-thumb secound img-popup w-100 round20"
+                >
                   <Image src={item.img} alt="img" className="round20" />
                 </a>
-
               ))}
 
               {masonry_data3.map((item, i) => (
@@ -109,17 +97,16 @@ export default function GalleryHomeOne() {
                   <a
                     style={{ cursor: "pointer" }}
                     onClick={() => handleImagePopup3(i)}
-                    className="gallery-com-thumb thard img-popup w-100 round20">
+                    className="gallery-com-thumb thard img-popup w-100 round20"
+                  >
                     <Image src={item.img} alt="img" className="round20" />
                   </a>
                   <Link href="/gallery" className="cmn-btn d-center">
-                    View all Project
+                    Voir tous les projets
                   </Link>
                 </div>
-
               ))}
             </div>
-
           </div>
         </div>
       </section>
@@ -155,8 +142,6 @@ export default function GalleryHomeOne() {
         />
       )}
       {/* image light box end */}
-
-
     </>
-  )
+  );
 }
