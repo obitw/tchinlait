@@ -19,26 +19,16 @@ interface DataType {
 
 // menu data
 const menu_data: DataType[] = [
-	{
-		id: 1,
-		title: "Home",
-		link: "#",
-		img_dropdown: true,
-		sub_menus: [
-			{ link: "/", title: "Home 01", demo_img: demo_img_1 },
-			{ link: "/home-2", title: "Home 02", demo_img: demo_img_2 },
-			{ link: "/home-3", title: "Home 03", demo_img: demo_img_3 },
-		],
-	},
+
 	{
 		id: 2,
-		title: "About Us",
+		title: "Candia Algérie",
 		link: "/about",
 		has_dropdown: false,
 	},
 	{
 		id: 3,
-		title: "Service",
+		title: "Nos Services",
 		link: "#",
 		has_dropdown: true,
 		sub_menus: [
@@ -48,7 +38,7 @@ const menu_data: DataType[] = [
 	},
 	{
 		id: 4,
-		title: "Projects",
+		title: "Produits",
 		link: "#",
 		has_dropdown: true,
 		sub_menus: [
@@ -58,7 +48,7 @@ const menu_data: DataType[] = [
 	},
 	{
 		id: 5,
-		title: "Blog",
+		title: "Candia et Vous",
 		link: "#",
 		has_dropdown: true,
 		sub_menus: [
@@ -66,19 +56,7 @@ const menu_data: DataType[] = [
 			{ link: "/blog-details", title: "Blog Details" },
 		],
 	},
-	{
-		id: 6,
-		title: "Pages",
-		link: "#",
-		has_dropdown: true,
-		sub_menus: [
-			{ link: "/about", title: "About" },
-			{ link: "/product-list", title: "Product" },
-			{ link: "/product-details", title: "Product Details" },
-			{ link: "/faq", title: "FAQ" },
-			{ link: "/contact", title: "Contact" },
-		],
-	},
+
 
 	{
 		id: 7,

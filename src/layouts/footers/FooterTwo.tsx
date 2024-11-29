@@ -110,24 +110,7 @@ export default function FooterTwo() {
                   </ul>
                 </div>
               </div>
-              <div
-                className="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInUp"
-                data-wow-delay=".5s"
-              >
-                <div className="single-footer-widget">
-                  <div className="widget-head">
-                    <h3 className="white-clr">Newsletter</h3>
-                  </div>
-                  <div className="latest-thumwrap">
-                    <img src="assets/img/footer/ln1.png" alt="img" />
-                    <img src="assets/img/footer/ln2.png" alt="img" />
-                    <img src="assets/img/footer/ln3.png" alt="img" />
-                    <img src="assets/img/footer/ln4.png" alt="img" />
-                    <img src="assets/img/footer/ln5.png" alt="img" />
-                    <img src="assets/img/footer/ln6.png" alt="img" />
-                  </div>
-                </div>
-              </div>
+      
             </div>
           </div>
         </div>

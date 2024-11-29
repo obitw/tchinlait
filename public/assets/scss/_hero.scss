@@ -15,8 +15,8 @@
 			content: "";
 			background: linear-gradient(
 				90deg,
-				#1f4e3d 33.96%,
-				rgba(72, 180, 141, 0.38) 100%
+				#003366 33.96%,
+				rgba(77, 166, 255, 0.38) 100%
 			);
 		}
 		.hero-thumbv01 {
@@ -695,10 +695,11 @@
 		content: "";
 		background: linear-gradient(
 			90deg,
-			#1f4e3d 0%,
-			rgba(45, 114, 89, 0.9) 52.5%,
-			rgba(72, 180, 141, 0.58) 100%
+			#003366 0%, /* Bleu foncé pour commencer le dégradé */
+			rgba(0, 85, 170, 0.9) 52.5%, /* Bleu moyen intense avec transparence */
+			rgba(77, 166, 255, 0.58) 100% /* Bleu clair lumineux avec une touche de transparence */
 		);
+		
 		z-index: -1;
 	}
 	.breadcrumnd-wrapp {

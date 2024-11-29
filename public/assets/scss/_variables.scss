@@ -1,20 +1,21 @@
 
 // Default Color Combine
 :root {
-	--body: #fff;
-	--black-clr: #000;
-	--white-clr: #fff;
-	--p1-clr: #2ab939;
-	--p2-clr: #fdd61f;
-	--p900-clr: #1f4e3d;
-	--pure900-clr: #225744;
-	--p800-clr: #6d756d;
-	--p700-clr: #191919;
-	--p200-clr: #e9efe5;
-	--p100-clr: #eff3ed;
-	--box-clr: #2A5747;
-	--shadow-clr: box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	--body: #f0faff; /* Bleu très clair pour un fond doux */
+	--black-clr: #002147; /* Bleu marine foncé pour un contraste élégant */
+	--white-clr: #ffffff; /* Blanc pur */
+	--p1-clr: #50a9f1; /* Bleu vif pour les accents principaux */
+	--p2-clr: #b3e6ff; /* Bleu pastel pour les éléments secondaires */
+	--p900-clr: #003366; /* Bleu profond pour les zones importantes */
+	--pure900-clr: #004080; /* Bleu intense pour les éléments clés */
+	--p800-clr: #6699cc; /* Bleu doux pour les détails ou arrière-plans */
+	--p700-clr: #336699; /* Bleu moyen pour les bordures ou textes secondaires */
+	--p200-clr: #e6f7ff; /* Bleu très pâle pour les zones légères */
+	--p100-clr: #f2fcff; /* Blanc bleuté pour une touche subtile et élégante */
+	--box-clr: #336699; /* Bleu moyen pour les boîtes ou éléments visuels */
+	--shadow-clr: rgba(51, 153, 255, 0.2) 0px 2px 8px 0px; /* Ombre bleue douce pour une cohérence globale */
 }
+
 
 // Default Color Combine
 $body: var(--body);
