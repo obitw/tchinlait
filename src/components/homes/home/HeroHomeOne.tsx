@@ -10,7 +10,7 @@ export default function HeroHomeOne() {
             <div className="col-lg-7 col-md-7 col-sm-9">
               <div className="hero-contentv01">
                 <h1 className="wow fadeInUp" data-wow-delay="0.4s">
-                  <span className="harves">حليب لكل الحياة</span>
+                  <span className="harves">Candia</span>
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay="0.6s">
                   Candia Algérie, le lait qui nourrit vos rêves. <br />
