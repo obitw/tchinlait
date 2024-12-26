@@ -17,7 +17,7 @@ export default function TestimoniaHomeOne() {
                 <img
                   src="assets/img/testimonial/testimonial.png"
                   alt="img"
-                  className="w-100"
+                  style={{ width: "80%", height: "auto" }}
                 />
               </div>
             </div>

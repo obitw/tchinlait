@@ -45,6 +45,7 @@ export default function HeroHomeOne() {
                   src="assets/img/banner/hero1.png"
                   alt="img"
                   className="mimg"
+                  style={{ width: "60%", height: "auto" }}
                 />
               </div>
             </div>
