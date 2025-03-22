@@ -82,10 +82,7 @@ export default function PortfolioHomeOne({ style_2 }: Props) {
                         {item.title}
                       </Link>
                       <p>{item.description}</p>
-                      <h5>Prix : {item.price} DA</h5>
-                      <Link href="/product-details" className="add-tocart">
-                        Ajouter au panier
-                      </Link>
+
                     </div>
                   </div>
                 </div>

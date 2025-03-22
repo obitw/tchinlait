@@ -11,7 +11,6 @@ import { StaticImageData } from "next/image";
 interface PortfolioDataType {
   id: number;
   title: string;
-  price: number;
   image: StaticImageData;
   category: string;
   description: string;
@@ -21,7 +20,6 @@ const portfolio_data: PortfolioDataType[] = [
   {
     id: 1,
     title: "Lait frais",
-    price: 1200,
     image: portfolio_img_1,
     category: "Produits laitiers",
     description:
@@ -29,54 +27,48 @@ const portfolio_data: PortfolioDataType[] = [
   },
   {
     id: 2,
-    title: "Yaourt nature",
-    price: 80,
+    title: "Yaourt à boire",
     image: portfolio_img_2,
     category: "Produits laitiers",
     description:
-      "Yaourts naturels, riches en probiotiques pour une digestion saine.",
+        "Une boisson lactée onctueuse et savoureuse, idéale pour une pause gourmande."
   },
   {
     id: 3,
-    title: "Fromage crémeux",
-    price: 45,
+    title: "Twist",
     image: portfolio_img_3,
     category: "Produits laitiers",
     description:
-      "Fromage crémeux fabriqué selon des méthodes traditionnelles et naturelles.",
+        "Une boisson fruitée et rafraîchissante, parfaite pour tous les âges."
   },
   {
     id: 4,
-    title: "Beurre",
-    price: 44,
+    title: "Candy Fruity",
     image: portfolio_img_4,
     category: "Produits laitiers",
     description:
-      "Beurre frais, préparé à partir du lait de vaches nourries avec des aliments naturels.",
+      "Découvrez les nouveaux délices de Candy Fruity à base de Jus de Pomme qui éveilleront vos sens à chaque gorgée !",
   },
   {
     id: 5,
-    title: "Crème fraîche",
-    price: 80,
+    title: "Boisson Orange",
     image: portfolio_img_5,
     category: "Produits laitiers",
     description:
-      "Crème fraîche d'excellence pour enrichir vos recettes culinaires.",
+      "L'orange dans toute sa fraîcheur, avec notre boisson Candia.",
   },
   {
     id: 6,
-    title: "Lait de vache",
-    price: 45,
+    title: "Nectar de Grenade",
     image: portfolio_img_6,
     category: "Produits laitiers",
     description:
-      "Lait de vache pasteurisé, garantissant fraîcheur et qualité pour toute la famille.",
+      "Un moment de pure douceur avec chaque gorgée de notre nectar de grenade.️",
   },
   // data repeat
   {
     id: 1,
     title: "Lait frais",
-    price: 120,
     image: portfolio_img_7,
     category: "Produits laitiers",
     description:
@@ -85,7 +77,6 @@ const portfolio_data: PortfolioDataType[] = [
   {
     id: 2,
     title: "Yaourt nature",
-    price: 80,
     image: portfolio_img_8,
     category: "Produits laitiers",
     description:
@@ -94,7 +85,6 @@ const portfolio_data: PortfolioDataType[] = [
   {
     id: 3,
     title: "Fromage crémeux",
-    price: 45,
     image: portfolio_img_3,
     category: "Produits laitiers",
     description:
@@ -103,7 +93,6 @@ const portfolio_data: PortfolioDataType[] = [
   {
     id: 4,
     title: "Beurre",
-    price: 44,
     image: portfolio_img_4,
     category: "Produits laitiers",
     description:
@@ -112,7 +101,6 @@ const portfolio_data: PortfolioDataType[] = [
   {
     id: 5,
     title: "Crème fraîche",
-    price: 80,
     image: portfolio_img_5,
     category: "Produits laitiers",
     description:
@@ -121,7 +109,6 @@ const portfolio_data: PortfolioDataType[] = [
   {
     id: 6,
     title: "Lait de vache",
-    price: 45,
     image: portfolio_img_6,
     category: "Produits laitiers",
     description:
