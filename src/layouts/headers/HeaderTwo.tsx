@@ -70,7 +70,7 @@ export default function HeaderTwo() {
                   </a>
                   <div className="header-button d-sm-block d-none">
                     <Link href="/contact" className="cmn-btn round100">
-                      Demander un devis
+                      Nous contacter
                       <i className="fa-solid fa-arrow-right"></i>
                     </Link>
                   </div>
