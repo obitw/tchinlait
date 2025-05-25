@@ -44,10 +44,10 @@ export default function PortfolioHomeOne({ style_2 }: Props) {
               <div className="col-xxl-5 col-xl-7">
                 <div className="section-title">
                   <h5 className="p1-clr wow fadeInLeft" data-wow-delay="0.4s">
-                    Notre Avenir
+                    Nos Produits
                   </h5>
                   <h2 className="wow fadeInDown" data-wow-delay=".3s">
-                    Nourrir le monde, de la graine à la table
+                    Une gamme complète de produits laitiers de qualité
                   </h2>
                 </div>
               </div>
@@ -82,7 +82,6 @@ export default function PortfolioHomeOne({ style_2 }: Props) {
                         {item.title}
                       </Link>
                       <p>{item.description}</p>
-
                     </div>
                   </div>
                 </div>

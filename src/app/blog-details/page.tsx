@@ -1,19 +1,18 @@
-
-import BlogDetails from '@/components/blog-details'
-import Wrapper from '@/layouts/Wrapper'
-import { Metadata } from 'next';
-import React from 'react'
+import BlogDetails from "@/components/blog-details";
+import Wrapper from "@/layouts/Wrapper";
+import { Metadata } from "next";
+import React from "react";
 
 export const metadata: Metadata = {
-  title: 'FarmHub Blog Details - Agriculture Farming Next js Template',
-  description: 'Introducing Farmhub - the ultimate Next template for showcasing your agricultural or organic business. Designed with a sleek and modern aesthetic, Farmhub effortlessly captures the essence of sustainable farming and food production.',
+  title: "Candia Algérie - Détails du Blog",
+  description:
+    "Plongez dans nos articles détaillés sur les produits laitiers Candia, la nutrition et notre engagement pour la qualité. Des informations approfondies pour mieux comprendre nos produits.",
 };
-
 
 export default function index() {
   return (
     <Wrapper>
       <BlogDetails />
     </Wrapper>
-  )
+  );
 }

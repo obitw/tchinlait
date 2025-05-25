@@ -1,20 +1,18 @@
-
-
-import Service from '@/components/service'
-import Wrapper from '@/layouts/Wrapper'
-import { Metadata } from 'next';
-import React from 'react'
+import Service from "@/components/service";
+import Wrapper from "@/layouts/Wrapper";
+import { Metadata } from "next";
+import React from "react";
 
 export const metadata: Metadata = {
-  title: 'FarmHub Service - Agriculture Farming Next js Template',
-  description: 'Introducing Farmhub - the ultimate Next template for showcasing your agricultural or organic business. Designed with a sleek and modern aesthetic, Farmhub effortlessly captures the essence of sustainable farming and food production.',
+  title: "Candia Algérie Services - Nos Engagements Qualité",
+  description:
+    "Découvrez nos services et notre engagement envers la qualité des produits laitiers. Candia Algérie met son expertise au service de votre satisfaction.",
 };
-
 
 export default function index() {
   return (
     <Wrapper>
       <Service />
     </Wrapper>
-  )
+  );
 }

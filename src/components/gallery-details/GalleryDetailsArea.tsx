@@ -129,37 +129,37 @@ export default function GalleryDetailsArea() {
             <div className="other-listing wow fadeInUp" data-wow-delay=".6s">
               <ul>
                 <li>
-                  <i className="fa-regular fa-circle-dot"></i>
+                  <i className="fa-solid fa-glass-water"></i>
                   <h5>Lait frais de qualité</h5>
                 </li>
                 <li>
-                  <i className="fa-regular fa-circle-dot"></i>
+                  <i className="fa-solid fa-bowl-food"></i>
                   <h5>Yaourts crémeux et délicieux</h5>
                 </li>
                 <li>
-                  <i className="fa-regular fa-circle-dot"></i>
+                  <i className="fa-solid fa-cheese"></i>
                   <h5>Fromages savoureux</h5>
                 </li>
                 <li>
-                  <i className="fa-regular fa-circle-dot"></i>
+                  <i className="fa-solid fa-heart-pulse"></i>
                   <h5>Produits enrichis pour votre santé</h5>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <i className="fa-regular fa-circle-dot"></i>
+                  <i className="fa-solid fa-users-family"></i>
                   <h5>Des produits pour toute la famille</h5>
                 </li>
                 <li>
-                  <i className="fa-regular fa-circle-dot"></i>
+                  <i className="fa-solid fa-star"></i>
                   <h5>Un goût inégalé</h5>
                 </li>
                 <li>
-                  <i className="fa-regular fa-circle-dot"></i>
+                  <i className="fa-solid fa-bottle-water"></i>
                   <h5>Le lait comme vous l'aimez</h5>
                 </li>
                 <li>
-                  <i className="fa-regular fa-circle-dot"></i>
+                  <i className="fa-solid fa-award"></i>
                   <h5>La qualité à chaque gorgée</h5>
                 </li>
               </ul>

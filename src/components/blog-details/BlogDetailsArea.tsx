@@ -25,18 +25,19 @@ export default function BlogDetailsArea() {
                   >
                     <li>
                       <a href="#">
-                        <i className="fa-regular fa-user"></i> By admin
+                        <i className="fa-solid fa-user-tie"></i> Par l'équipe
+                        Candia
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="fa-solid fa-folder-open"></i> Category
+                        <i className="fa-solid fa-tags"></i> Catégorie
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="fa-solid fa-calendar-days"></i> October
-                        19, 2024
+                        <i className="fa-solid fa-calendar-days"></i> 19 Octobre
+                        2024
                       </a>
                     </li>
                   </ul>
@@ -151,27 +152,16 @@ export default function BlogDetailsArea() {
                   </div>
                   <div className="social-wrapper d-flex align-items-center">
                     <a href="#" className="white">
-                      <i className="white fa-brands fa-pinterest-p"></i>
+                      <i className="white fa-brands fa-facebook"></i>
                     </a>
                     <a href="#" className="white">
-                      <i className="white fa-brands fa-linkedin-in"></i>
+                      <i className="white fa-brands fa-instagram"></i>
                     </a>
                     <a href="#" className="white">
-                      <svg
-                        width="11"
-                        height="12"
-                        viewBox="0 0 11 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M6.55735 5.16157L10.5183 0.65625H9.57971L6.14039 4.56816L3.39341 0.65625H0.225098L4.37906 6.57174L0.225098 11.2963H1.16378L4.79579 7.16516L7.6968 11.2963H10.8651L6.55712 5.16157H6.55735ZM5.2717 6.62386L4.85082 6.03481L1.502 1.34768H2.94375L5.64629 5.13034L6.06717 5.71939L9.58015 10.6363H8.13839L5.2717 6.62409V6.62386Z"
-                          fill="white"
-                        />
-                      </svg>
+                      <i className="white fa-brands fa-youtube"></i>
                     </a>
                     <a href="#" className="white">
-                      <i className="white fab fa-facebook-f"></i>
+                      <i className="white fa-brands fa-tiktok"></i>
                     </a>
                   </div>
                 </div>
@@ -329,31 +319,32 @@ export default function BlogDetailsArea() {
                     <ul className="d-grid gap-xxl-3 gap-3">
                       <li>
                         <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Evergreen Lawn
-                          Care
+                          <i className="fa-solid fa-glass-water"></i>Qualité du
+                          Lait
                         </Link>
                       </li>
                       <li>
                         <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Petal Perfect
-                          Farming
+                          <i className="fa-solid fa-bowl-food"></i>Produits
+                          Frais
                         </Link>
                       </li>
                       <li>
                         <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Blissful
-                          Botanicals
+                          <i className="fa-solid fa-lightbulb"></i>Innovation
+                          Laitière
                         </Link>
                       </li>
                       <li>
                         <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>The Farm Guru
+                          <i className="fa-solid fa-heart-pulse"></i>Nutrition &
+                          Santé
                         </Link>
                       </li>
                       <li>
                         <Link href="/blog-details">
-                          <i className="fa-solid fa-minus"></i>Serene Scape
-                          Design
+                          <i className="fa-solid fa-utensils"></i>Recettes
+                          Candia
                         </Link>
                       </li>
                     </ul>
@@ -383,7 +374,7 @@ export default function BlogDetailsArea() {
                           10,2024
                         </span>
                         <Link href="/blog-details">
-                          Planting the Seeds of Innovation
+                          L'Innovation dans les Produits Laitiers
                         </Link>
                       </div>
                     </div>
@@ -400,7 +391,7 @@ export default function BlogDetailsArea() {
                           10,2024
                         </span>
                         <Link href="/blog-details">
-                          Discover the Potential of Agriculture
+                          La Qualité au Cœur de nos Produits
                         </Link>
                       </div>
                     </div>
@@ -417,7 +408,7 @@ export default function BlogDetailsArea() {
                           10,2024
                         </span>
                         <Link href="/blog-details">
-                          Nourish Your Life with Agriculture
+                          Le Bien-être par les Produits Laitiers
                         </Link>
                       </div>
                     </div>
@@ -434,12 +425,12 @@ export default function BlogDetailsArea() {
                     <h3>Tags</h3>
                   </div>
                   <div className="tagwrap">
-                    <Link href="/blog-details">CropCare Pro</Link>
-                    <Link href="/blog-details">Blossoms</Link>
-                    <Link href="/blog-details">Farm</Link>
-                    <Link href="/blog-details">Harmony</Link>
-                    <Link href="/blog-details">Nature</Link>
-                    <Link href="/blog-details">Green</Link>
+                    <Link href="/blog-details">Lait</Link>
+                    <Link href="/blog-details">Yaourt</Link>
+                    <Link href="/blog-details">Fromage</Link>
+                    <Link href="/blog-details">Nutrition</Link>
+                    <Link href="/blog-details">Qualité</Link>
+                    <Link href="/blog-details">Santé</Link>
                   </div>
                 </div>
               </div>

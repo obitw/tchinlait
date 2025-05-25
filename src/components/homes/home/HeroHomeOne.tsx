@@ -18,11 +18,11 @@ export default function HeroHomeOne() {
                 </p>
                 <ul className="hero-list wow fadeInUp" data-wow-delay="0.8s">
                   <li>
-                    <i className="fa-solid fa-angles-right"></i>
+                    <i className="fa-solid fa-heart-pulse"></i>
                     L'engagement pour une alimentation saine
                   </li>
                   <li>
-                    <i className="fa-solid fa-angles-right"></i>
+                    <i className="fa-solid fa-star"></i>
                     La passion du lait, au cœur de nos produits
                   </li>
                 </ul>
@@ -32,7 +32,7 @@ export default function HeroHomeOne() {
                   data-wow-delay="0.9s"
                 >
                   En savoir plus
-                  <i className="fa-solid fa-arrow-right"></i>
+                  <i className="fa-solid fa-arrow-right-long"></i>
                 </Link>
               </div>
             </div>

@@ -1,19 +1,18 @@
-
-import Gallery from '@/components/gallery'
-import Wrapper from '@/layouts/Wrapper'
-import { Metadata } from 'next';
-import React from 'react'
+import Gallery from "@/components/gallery";
+import Wrapper from "@/layouts/Wrapper";
+import { Metadata } from "next";
+import React from "react";
 
 export const metadata: Metadata = {
-  title: 'FarmHub Gallery - Agriculture Farming Next js Template',
-  description: 'Introducing Farmhub - the ultimate Next template for showcasing your agricultural or organic business. Designed with a sleek and modern aesthetic, Farmhub effortlessly captures the essence of sustainable farming and food production.',
+  title: "Candia Algérie - Galerie Photos",
+  description:
+    "Découvrez en images nos installations modernes et notre gamme de produits laitiers Candia. La qualité se voit dans chaque détail.",
 };
-
 
 export default function index() {
   return (
     <Wrapper>
       <Gallery />
     </Wrapper>
-  )
+  );
 }
