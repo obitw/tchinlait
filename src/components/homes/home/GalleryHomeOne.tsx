@@ -101,9 +101,12 @@ export default function GalleryHomeOne() {
                   >
                     <Image src={item.img} alt="img" className="round20" />
                   </a>
-                  <Link href="/gallery" className="cmn-btn d-center">
-                    Voir tous les projets
-                  </Link>
+                  <button 
+                    onClick={() => document.getElementById('nos-produits')?.scrollIntoView({ behavior: 'smooth' })}
+                    className="cmn-btn d-center"
+                  >
+                    Voir tous les produits
+                  </button>
                 </div>
               ))}
             </div>

@@ -33,7 +33,7 @@ export default function CtaHomeOne() {
                 <div className="col-sm-6 wow fadeInDown" data-wow-delay=".4s">
                   <div className="who-box">
                     <div className="icon d-center">
-                      <img src="assets/img/icon/hand-planp900.svg" alt="icon" />
+                      <img src="assets/img/icon/hand-milk.png" alt="icon" />
                     </div>
                     <Link href="/about" className="title">
                       Produits laitiers frais
@@ -44,7 +44,7 @@ export default function CtaHomeOne() {
                 <div className="col-sm-6 wow fadeInDown" data-wow-delay=".6s">
                   <div className="who-box">
                     <div className="icon d-center">
-                      <img src="assets/img/icon/wheath-p900.svg" alt="icon" />
+                      <img src="assets/img/icon/cow.png" alt="icon" />
                     </div>
                     <Link href="/about" className="title">
                       Respect de la terre

@@ -2,10 +2,10 @@
 import React from 'react'
 import Image from 'next/image';
 import Count from '@/components/common/Count';
-import counter_img_1 from "@/assets/img/icon/count1.svg";
-import counter_img_2 from "@/assets/img/icon/count2.svg";
-import counter_img_3 from "@/assets/img/icon/count3.svg";
-import counter_img_4 from "@/assets/img/icon/count4.svg";
+import counter_img_1 from "@/assets/img/icon/count1.png";
+import counter_img_2 from "@/assets/img/icon/count2.png";
+import counter_img_3 from "@/assets/img/icon/count3.png";
+import counter_img_4 from "@/assets/img/icon/count4.png";
 
 interface CountDataType {
   id: number;
@@ -16,10 +16,10 @@ interface CountDataType {
 }
 
 const coundet_data: CountDataType[] = [
-  { id: 1, number: 200, icon: counter_img_1, text: "+", title: "Team member" },
-  { id: 2, number: 300, icon: counter_img_2, text: "k+", title: "Winning award" },
-  { id: 2, number: 100, icon: counter_img_3, text: "+", title: "Complete project" },
-  { id: 2, number: 900, icon: counter_img_4, text: "+", title: "Client review" },
+  { id: 1, number: 15, icon: counter_img_1, text: "+", title: "Années d'expérience" },
+  { id: 2, number: 50, icon: counter_img_2, text: "+", title: "Fermes partenaires" },
+  { id: 3, number: 100, icon: counter_img_3, text: "+", title: "Produits laitiers" },
+  { id: 4, number: 10000, icon: counter_img_4, text: "+", title: "Clients satisfaits" },
 ]
 
 
@@ -38,7 +38,7 @@ export default function CounterHomeOne({ style_2 }: PropsType) {
                 {style_2 ?
                   <>
                     <div className="cont-bottom">
-                      <Image src={item.icon} alt="img" />
+                      <Image src={item.icon} alt="img" width={50} height={50} style={{ width: '50px', height: 'auto' }} />
                     </div>
                     <div className="con-box">
                       <h2 className="d-flex align-items-center">
@@ -53,7 +53,7 @@ export default function CounterHomeOne({ style_2 }: PropsType) {
                       <span className="count"> <Count number={item.number} /> </span> {item.text}
                     </h2>
                     <div className="cont-bottom">
-                      <Image src={item.icon} alt="img" />
+                      <Image src={item.icon} alt="img" width={50} height={50} style={{ width: '50px', height: 'auto' }} />
                       <p>{item.title}</p>
                     </div>
                   </>

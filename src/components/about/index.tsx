@@ -9,7 +9,6 @@ import CtaHomeOne from '../homes/home/CtaHomeOne'
 import PortfolioHomeOne from '../homes/home/PortfolioHomeOne'
 import SubscribeHomeThree from '../homes/home-3/SubscribeHomeThree'
 import FooterTwo from '@/layouts/footers/FooterTwo'
-import BrandHomeOne from '../homes/home/BrandHomeOne'
 
 export default function About() {
   return (
@@ -21,7 +20,6 @@ export default function About() {
       <TestimoniaHomeOne />
       <CtaHomeOne />
       <PortfolioHomeOne style_2={true} />
-      <BrandHomeOne style_3={true} />
       <SubscribeHomeThree />
       <FooterTwo />
 

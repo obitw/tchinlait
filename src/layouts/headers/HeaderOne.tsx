@@ -40,17 +40,6 @@ export default function HeaderOne({ style_2 }: PropsType) {
                     </nav>
                   </div>
                 </div>
-                <div className="shop-adjust">
-                  <div className="header-button d-sm-block d-none">
-                    <Link
-                      href="/contact"
-                      className="cmn-btn d-center round100 cmn-white-clr"
-                    >
-                      Nous contacter
-                      <i className="fa-solid fa-arrow-right"></i>
-                    </Link>
-                  </div>
-                </div>
                 <div className="header__hamburger d-xl-none my-auto">
                   <div
                     className="sidebar__toggle"

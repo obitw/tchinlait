@@ -60,11 +60,16 @@ export default function TestimoniaHomeOne() {
                         fabriqués selon les plus hautes normes, pour une
                         nutrition saine et équilibrée.
                       </p>
-                      <div className="review-man">
-                        <img src="assets/img/testimonial/re1.png" alt="img" />
+                      <div className="review-man d-flex align-items-center">
+                        <img 
+                          src="assets/img/testimonial/re1.jpg" 
+                          alt="img" 
+                          className="rounded-circle me-3"
+                          style={{ width: '70px', height: '70px', objectFit: 'cover' }}
+                        />
                         <div className="cont">
-                          <h3>Haney Cooper</h3>
-                          <span>PDG</span>
+                          <h3>Fawzi Berkati</h3>
+                          <span>Proptiétaire</span>
                         </div>
                       </div>
                     </div>
@@ -87,11 +92,16 @@ export default function TestimoniaHomeOne() {
                         locaux qui respectent les traditions tout en innovant
                         pour le bien-être des consommateurs.
                       </p>
-                      <div className="review-man">
-                        <img src="assets/img/testimonial/re1.png" alt="img" />
+                      <div className="review-man d-flex align-items-center">
+                        <img 
+                          src="assets/img/testimonial/re2.jpg" 
+                          alt="img" 
+                          className="rounded-circle me-3"
+                          style={{ width: '70px', height: '70px', objectFit: 'cover' }}
+                        />
                         <div className="cont">
-                          <h3>Haney Cooper</h3>
-                          <span>PDG</span>
+                          <h3>Nesrine Berkati</h3>
+                          <span>Communication and Marketing Manager</span>
                         </div>
                       </div>
                     </div>
@@ -114,10 +124,15 @@ export default function TestimoniaHomeOne() {
                         et de qualité, tout en respectant l'environnement et en
                         garantissant la sécurité alimentaire.
                       </p>
-                      <div className="review-man">
-                        <img src="assets/img/testimonial/re1.png" alt="img" />
+                      <div className="review-man d-flex align-items-center">
+                        <img 
+                          src="assets/img/testimonial/re3.png" 
+                          alt="img" 
+                          className="rounded-circle me-3"
+                          style={{ width: '70px', height: '70px', objectFit: 'cover' }}
+                        />
                         <div className="cont">
-                          <h3>Haney Cooper</h3>
+                          <h3>Tejdin Berkati</h3>
                           <span>PDG</span>
                         </div>
                       </div>
@@ -129,12 +144,6 @@ export default function TestimoniaHomeOne() {
             </div>
           </div>
         </div>
-
-        <img
-          src="assets/img/element/flower-badge.png"
-          alt="img"
-          className="flower-testimonial d-sm-block d-none"
-        />
       </section>
     </>
   );

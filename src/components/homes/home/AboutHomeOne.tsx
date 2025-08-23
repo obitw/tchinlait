@@ -14,23 +14,6 @@ export default function AboutHomeOne() {
                   alt="img"
                   className="mimg"
                 />
-                <img
-                  src="assets/img/about/f-food.png"
-                  alt="img"
-                  className="f-food"
-                />
-                <img
-                  src="assets/img/about/l-food.png"
-                  alt="img"
-                  className="l-food wow fadeInLeft"
-                  data-wow-delay=".5s"
-                />
-                <img
-                  src="assets/img/about/t-food.png"
-                  alt="img"
-                  className="t-food wow fadeInLeft"
-                  data-wow-delay=".7s"
-                />
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
@@ -48,39 +31,6 @@ export default function AboutHomeOne() {
                     normes les plus strictes pour répondre aux besoins de chaque
                     famille.
                   </p>
-                  <div className="progress_bar d-grid gap-xxl-4 gap-4">
-                    <div className="progress_bar_item">
-                      <div
-                        className="per-title d-flex align-items-center justify-content-between"
-                        style={{ width: "90%" }}
-                      >
-                        <div className="item_label p900-clr">
-                          Pur et naturel
-                        </div>
-                        <div className="item_value p900-clr">90%</div>
-                      </div>
-                      <div className="item_bar">
-                        <div className="progress" data-progress="90"></div>
-                      </div>
-                    </div>
-                    <div className="progress_bar_item">
-                      <div
-                        className="per-title d-flex align-items-center justify-content-between"
-                        style={{ width: "85%" }}
-                      >
-                        <div className="item_label p900-clr">
-                          Produits sains
-                        </div>
-                        <div className="item_value p900-clr">85%</div>
-                      </div>
-                      <div className="item_bar">
-                        <div className="progress" data-progress="85"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <Link href="/about" className="cmn-btn round100 cmn-primary2">
-                    En savoir plus
-                  </Link>
                 </div>
               </div>
             </div>

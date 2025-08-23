@@ -1,22 +1,20 @@
 
 
-import HeaderThree from '@/layouts/headers/HeaderThree'
+import HeaderOne from '@/layouts/headers/HeaderOne'
 import React from 'react'
 import Breadcrumnd from '../common/Breadcrumnd'
-import FooterTwo from '@/layouts/footers/FooterTwo'
-import SubscribeHomeThree from '../homes/home-3/SubscribeHomeThree'
-import FaqHomeThree from '../homes/home-3/FaqHomeThree'
-import CounterHomeThree from '../homes/home-3/CounterHomeThree'
+import FooterOne from '@/layouts/footers/FooterOne'
 
 export default function Faq() {
   return (
     <>
-      <HeaderThree />
+      <HeaderOne />
       <Breadcrumnd title="Faq" subtitle="Faq" />
-      <FaqHomeThree />
-      <CounterHomeThree style_2={true} />
-      <SubscribeHomeThree />
-      <FooterTwo />
+      <div className="container py-5">
+        <h2 className="text-center mb-5">Foire aux questions</h2>
+        {/* Ajoutez ici le contenu de votre FAQ */}
+      </div>
+      <FooterOne />
     </>
   )
 }

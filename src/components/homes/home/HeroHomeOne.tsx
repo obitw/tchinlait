@@ -10,7 +10,7 @@ export default function HeroHomeOne() {
             <div className="col-lg-7 col-md-7 col-sm-9">
               <div className="hero-contentv01">
                 <h1 className="wow fadeInUp" data-wow-delay="0.4s">
-                  <span className="harves">Candia</span>
+                  <span className="harves">Tchin-Lait</span>
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay="0.6s">
                   Candia Algérie, le lait qui nourrit vos rêves. <br />
@@ -26,14 +26,6 @@ export default function HeroHomeOne() {
                     La passion du lait, au cœur de nos produits
                   </li>
                 </ul>
-                <Link
-                  href="/about"
-                  className="cmn-btn round100 wow fadeInUp"
-                  data-wow-delay="0.9s"
-                >
-                  En savoir plus
-                  <i className="fa-solid fa-arrow-right-long"></i>
-                </Link>
               </div>
             </div>
             <div className="col-lg-5 col-md-5 col-sm-8">

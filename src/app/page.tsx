@@ -4,7 +4,7 @@ import HomeOne from "@/components/homes/home";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata: Metadata = {
-  title: "Candia Algérie - Produits Laitiers de Qualité",
+  title: "Tchin-Lait Candia",
   description:
     "Découvrez Candia Algérie, votre partenaire de confiance pour des produits laitiers de qualité. Notre engagement envers l'excellence et la fraîcheur se reflète dans chaque produit, du lait frais aux yaourts onctueux.",
 };

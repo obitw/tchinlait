@@ -12,7 +12,6 @@ import PortfolioHomeOne from './PortfolioHomeOne'
 import CtaHomeOne from './CtaHomeOne'
 import FeatureVideo from './FeatureVideo'
 import BlogHomeOne from './BlogHomeOne'
-import BrandHomeOne from './BrandHomeOne'
 import FooterOne from '@/layouts/footers/FooterOne'
 
 export default function HomeOne() {
@@ -29,8 +28,6 @@ export default function HomeOne() {
       <CtaHomeOne />
       <FeatureVideo />
       <BlogHomeOne />
-      <BrandHomeOne />
-
       <FooterOne />
 
     </>

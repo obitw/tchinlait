@@ -5,12 +5,6 @@ import portfolio_data from "@/data/portfolio_data";
 import Image from "next/image";
 import Link from "next/link";
 
-// data
-const categories = [
-  "All",
-  ...new Set(portfolio_data.map((item) => item.category)),
-];
-
 type Props = {
   style_2?: boolean;
 };
@@ -34,6 +28,7 @@ export default function PortfolioHomeOne({ style_2 }: Props) {
   return (
     <>
       <section
+        id="nos-produits"
         className={`service-feature-section white-bg ${
           style_2 ? "space-top" : "space-bottom"
         }`}
@@ -51,26 +46,6 @@ export default function PortfolioHomeOne({ style_2 }: Props) {
                   </h2>
                 </div>
               </div>
-              <div className="col-xxl-5 col-xl-5">
-                <div className="mixtup-filtering d-flex justify-content-end">
-                  <div className="filter-btns">
-                    {categories.map((cate, i) => (
-                      <React.Fragment key={i}>
-                        <button
-                          onClick={() => filterItems(cate)}
-                          className={`${
-                            cate === activeCategory
-                              ? "mixitup-control-active"
-                              : ""
-                          }`}
-                        >
-                          {cate}
-                        </button>{" "}
-                      </React.Fragment>
-                    ))}
-                  </div>
-                </div>
-              </div>
             </div>
             <div className="all-catagorys">
               {items.slice(0, 6).map((item, i) => (
@@ -78,9 +53,9 @@ export default function PortfolioHomeOne({ style_2 }: Props) {
                   <div className="feature-itemsv1">
                     <Image src={item.image} alt="img" className="f-thumb" />
                     <div className="content">
-                      <Link href="/product-details" className="title">
+                      <h3 className="title">
                         {item.title}
-                      </Link>
+                      </h3>
                       <p>{item.description}</p>
                     </div>
                   </div>

@@ -33,20 +33,18 @@ export default function ServiceHomeOne({ style_2 }: Props) {
             >
               <div className="service-itemsv1">
                 <img
-                  src="assets/img/icon/count1.svg"
+                  src="assets/img/icon/count3.svg"
                   alt="svg"
                   className="icons"
                 />
                 <div className="content">
-                  <Link href="/service-details" className="title">
+                  <h3 className="title">
                     Produits Laitiers Premium
-                  </Link>
+                  </h3>
                   <p>
                     Découvrez nos produits laitiers d'une qualité exceptionnelle
                   </p>
-                  <Link href="/service-details" className="arrows">
-                    En savoir plus <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
+
                 </div>
               </div>
             </div>
@@ -61,16 +59,14 @@ export default function ServiceHomeOne({ style_2 }: Props) {
                   className="icons"
                 />
                 <div className="content">
-                  <Link href="/service-details" className="title">
+                  <h3 className="title">
                     Innovation Laitière
-                  </Link>
+                  </h3>
                   <p>
                     Nous réinventons le goût du lait avec des innovations
                     uniques
                   </p>
-                  <Link href="/service-details" className="arrows">
-                    En savoir plus <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
+
                 </div>
               </div>
             </div>
@@ -85,15 +81,13 @@ export default function ServiceHomeOne({ style_2 }: Props) {
                   className="icons"
                 />
                 <div className="content">
-                  <Link href="/service-details" className="title">
+                  <h3 className="title">
                     Lait Frais & Naturel
-                  </Link>
+                  </h3>
                   <p>
                     Le lait frais, naturellement délicieux et riche en bienfaits
                   </p>
-                  <Link href="/service-details" className="arrows">
-                    En savoir plus <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
+
                 </div>
               </div>
             </div>
