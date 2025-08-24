@@ -1634,7 +1634,6 @@ span {
 }
 
 .feature-videov02 {
-  background: url(../img/about/feature-video02.jpg) no-repeat center center;
   background-size: cover;
   padding: 270px 0 170px;
 }
@@ -4868,7 +4867,6 @@ iframe {
 }
 .banner-section.style-v3 {
   z-index: 1;
-  background: url(../img/banner/hero3-bg.png) no-repeat center center;
   background-size: cover;
   padding-top: 80px;
 }
@@ -5157,7 +5155,6 @@ iframe {
   }
 }
 .breadcrumnd-banner {
-  background: url(../img/about/bread-bg.png) no-repeat center center;
   background-size: cover;
   position: relative;
   padding: 150px 0;
