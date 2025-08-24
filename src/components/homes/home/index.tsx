@@ -1,6 +1,3 @@
-
-
-import React from 'react'
 import HeroHomeOne from './HeroHomeOne'
 import AboutHomeOne from './AboutHomeOne'
 import HeaderOne from '@/layouts/headers/HeaderOne'
@@ -29,7 +26,6 @@ export default function HomeOne() {
       <FeatureVideo />
       <BlogHomeOne />
       <FooterOne />
-
     </>
   )
 }

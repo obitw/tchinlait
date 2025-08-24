@@ -1,7 +1,6 @@
 "use client";
-import Link from "next/link";
 import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
 import ImagePopup from "@/modals/ImagePopup";
 
 import masonry_1 from "@/assets/img/gallery/gl1.jpg";
@@ -11,41 +10,42 @@ import masonry_4 from "@/assets/img/gallery/gl4.jpg";
 import masonry_5 from "@/assets/img/gallery/gl5.jpg";
 
 const masonry_data = [
-  {
-    img: masonry_1,
-    cls: 7,
-  },
-  {
-    img: masonry_2,
-    cls: 5,
-  },
+  { img: masonry_1, cls: 7 },
+  { img: masonry_2, cls: 5 },
 ];
-const masonry_data2 = [{ img: masonry_3 }, { img: masonry_4 }];
-const masonry_data3 = [{ img: masonry_5 }];
+
+const masonry_data2 = [
+  { img: masonry_3 },
+  { img: masonry_4 }
+];
+
+const masonry_data3 = [
+  { img: masonry_5 }
+];
 
 export default function GalleryHomeOne() {
-  // photoIndex
   const [photoIndex, setPhotoIndex] = useState(0);
-  const [photoIndex2, setPhotoIndex2] = useState(0);
-  const [photoIndex3, setPhotoIndex3] = useState(0);
-  // image open state
   const [isOpen, setIsOpen] = useState(false);
+  const [photoIndex2, setPhotoIndex2] = useState(0);
   const [isOpen2, setIsOpen2] = useState(false);
+  const [photoIndex3, setPhotoIndex3] = useState(0);
   const [isOpen3, setIsOpen3] = useState(false);
-  // handleImagePopup
+
   const handleImagePopup = (i: number) => {
     setPhotoIndex(i);
     setIsOpen(true);
   };
+
   const handleImagePopup2 = (i: number) => {
     setPhotoIndex2(i);
     setIsOpen2(true);
   };
+
   const handleImagePopup3 = (i: number) => {
     setPhotoIndex3(i);
     setIsOpen3(true);
   };
-  //  images
+
   const image = masonry_data.map((item) => item.img.src);
   const image2 = masonry_data2.map((item) => item.img.src);
   const image3 = masonry_data3.map((item) => item.img.src);
