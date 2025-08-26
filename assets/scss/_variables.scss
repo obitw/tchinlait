@@ -1,0 +1,87 @@
+// Default Color Combine
+:root {
+  --body: #f0faff; /* Bleu très clair pour un fond doux */
+  --black-clr: #002147; /* Bleu marine foncé pour un contraste élégant */
+  --white-clr: #ffffff; /* Blanc pur */
+  --p1-clr: #50a9f1; /* Bleu vif pour les accents principaux */
+  --p2-clr: #b3e6ff; /* Bleu pastel pour les éléments secondaires */
+  --p900-clr: #003366; /* Bleu profond pour les zones importantes */
+  --pure900-clr: #004080; /* Bleu intense pour les éléments clés */
+  --p800-clr: #6699cc; /* Bleu doux pour les détails ou arrière-plans */
+  --p700-clr: #336699; /* Bleu moyen pour les bordures ou textes secondaires */
+  --p200-clr: #e6f7ff; /* Bleu très pâle pour les zones légères */
+  --p100-clr: #f2fcff; /* Blanc bleuté pour une touche subtile et élégante */
+  --box-clr: #336699; /* Bleu moyen pour les boîtes ou éléments visuels */
+  --shadow-clr: rgba(51, 153, 255, 0.2) 0px 2px 8px 0px; /* Ombre bleue douce pour une cohérence globale */
+}
+
+// Default Color Combine
+$body: var(--body);
+$black-clr: var(--black-clr);
+$white-clr: var(--white-clr);
+$p1-clr: var(--p1-clr);
+$p2-clr: var(--p2-clr);
+$p900-clr: var(--p900-clr);
+$pure900-clr: var(--pure900-clr);
+$p800-clr: var(--p800-clr);
+$p700-clr: var(--p700-clr);
+$p200-clr: var(--p200-clr);
+$p100-clr: var(--p100-clr);
+$shadow-clr: var(--shadow-clr);
+$box-clr: var(--box-clr);
+
+// Default Scss Style Color Use In Hmtl
+.black-clr {
+  color: $black-clr !important;
+}
+.black-bg {
+  background: $black-clr !important;
+}
+.white-clr {
+  color: $white-clr !important;
+}
+.white-bg {
+  background: $white-clr !important;
+}
+.p1-clr {
+  color: $p1-clr !important;
+}
+.p1-bg {
+  background: $p1-clr !important;
+}
+.p2-clr {
+  color: $p2-clr !important;
+}
+.p2-bg {
+  background: $p2-clr !important;
+}
+.p900-clr {
+  color: $p900-clr !important;
+}
+.p900-bg {
+  background: $p900-clr !important;
+}
+.p800-clr {
+  color: $p800-clr !important;
+}
+.p800-bg {
+  background: $p800-clr !important;
+}
+.p700-clr {
+  color: $p700-clr !important;
+}
+.p700-bg {
+  background: $p700-clr !important;
+}
+.p200-clr {
+  color: $p200-clr !important;
+}
+.p200-bg {
+  background: $p200-clr !important;
+}
+.p100-clr {
+  color: $p100-clr !important;
+}
+.p100-bg {
+  background: $p100-clr !important;
+}
