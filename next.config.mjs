@@ -1,10 +1,15 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   reactStrictMode: false,
   eslint: {
-    dirs: ['pages', 'utils'], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
+    dirs: ['pages', 'utils'],
   },
-  
+  assetPrefix: isProd ? '/tchinlait/' : '',
+  basePath: isProd ? '/tchinlait' : '',
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
