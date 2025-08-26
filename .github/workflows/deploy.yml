@@ -35,3 +35,4 @@ jobs:
           clean-exclude: |
             .git
             .gitignore
+          token: ${{ secrets.ACCESS_TOKEN }}
