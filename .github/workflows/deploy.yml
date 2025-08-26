@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: |
           npm run build
-          touch .nojekyll
+          touch out/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
@@ -32,3 +32,6 @@ jobs:
           folder: out
           branch: gh-pages
           clean: true
+          clean-exclude: |
+            .git
+            .gitignore

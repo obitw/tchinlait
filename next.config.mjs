@@ -5,6 +5,7 @@ const nextConfig = {
   eslint: {
     dirs: ['pages', 'utils'],
   },
+  output: 'export',
   assetPrefix: isProd ? '/tchinlait/' : '',
   basePath: isProd ? '/tchinlait' : '',
   images: {
