@@ -15,9 +15,18 @@ export default function Offcanvas({ open, setOpen }: Props) {
           <div className="offcanvas__wrapper">
             <div className="offcanvas__content">
               <div className="offcanvas__top mb-4 d-flex justify-content-between align-items-center">
-                <div className="offcanvas__logo">
+                <div className="offcanvas__logo" style={{ maxWidth: '150px' }}>
                   <Link href="/">
-                    <img src="assets/img/logo/logo.png" alt="logo-img" />
+                    <img 
+                      src="assets/img/logo/logo.png" 
+                      alt="logo-img" 
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                        maxHeight: '60px',
+                        objectFit: 'contain'
+                      }}
+                    />
                   </Link>
                 </div>
                 <div className="offcanvas__close">
