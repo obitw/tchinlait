@@ -17,21 +17,21 @@ const testimonials: Testimonial[] = [
     content: "Candia Algérie offre des produits laitiers de qualité, fabriqués selon les plus hautes normes, pour une nutrition saine et équilibrée.",
     author: "Fawzi Berkati",
     role: "Propriétaire",
-    image: getAssetPath("/assets/img/testimonial/re1.jpg")
+    image: "/assets/img/testimonial/re1.jpg"
   },
   {
     id: 2,
     content: "Nous sommes fiers de produire des produits laitiers locaux qui respectent les traditions tout en innovant pour le bien-être des consommateurs.",
     author: "Nesrine Berkati",
     role: "Communication et Marketing Manager",
-    image: getAssetPath("/assets/img/testimonial/re2.jpg")
+    image: "/assets/img/testimonial/re2.jpg"
   },
   {
     id: 3,
     content: "Candia Algérie transforme le lait en produits délicieux et de qualité, tout en respectant l'environnement et en garantissant la sécurité alimentaire.",
     author: "Tejdin Berkati",
     role: "PDG",
-    image: getAssetPath("/assets/img/testimonial/re3.png")
+    image: "/assets/img/testimonial/re3.png"
   }
 ];
 
@@ -94,7 +94,7 @@ export default function TestimoniaHomeOne() {
                       <p>{testimonial.content}</p>
                       <div className="review-man d-flex align-items-center">
                         <img
-                          src={getAssetPath(testimonial.image)}
+                          src={getAssetPath(testimonial.image.startsWith('/') ? testimonial.image.substring(1) : testimonial.image)}
                           alt={testimonial.author}
                           className="img-fluid rounded-circle me-3"
                           style={{ 
