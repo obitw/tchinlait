@@ -1,6 +1,7 @@
 "use client";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { getAssetPath } from "@/utils/pathUtils";
 
 interface Testimonial {
   id: number;
@@ -16,21 +17,21 @@ const testimonials: Testimonial[] = [
     content: "Candia Algérie offre des produits laitiers de qualité, fabriqués selon les plus hautes normes, pour une nutrition saine et équilibrée.",
     author: "Fawzi Berkati",
     role: "Propriétaire",
-    image: "/assets/img/testimonial/re1.jpg"
+    image: getAssetPath("/assets/img/testimonial/re1.jpg")
   },
   {
     id: 2,
     content: "Nous sommes fiers de produire des produits laitiers locaux qui respectent les traditions tout en innovant pour le bien-être des consommateurs.",
     author: "Nesrine Berkati",
     role: "Communication et Marketing Manager",
-    image: "/assets/img/testimonial/re2.jpg"
+    image: getAssetPath("/assets/img/testimonial/re2.jpg")
   },
   {
     id: 3,
     content: "Candia Algérie transforme le lait en produits délicieux et de qualité, tout en respectant l'environnement et en garantissant la sécurité alimentaire.",
     author: "Tejdin Berkati",
     role: "PDG",
-    image: "/assets/img/testimonial/re3.png"
+    image: getAssetPath("/assets/img/testimonial/re3.png")
   }
 ];
 
@@ -45,7 +46,7 @@ export default function TestimoniaHomeOne() {
               data-wow-delay=".4s"
             >
               <img
-                src="/assets/img/testimonial/testimonial.png"
+                src={getAssetPath("/assets/img/testimonial/testimonial.png")}
                 alt="Témoignages clients"
                 className="img-fluid"
                 style={{ width: "80%", height: "auto" }}
@@ -78,9 +79,10 @@ export default function TestimoniaHomeOne() {
                   <SwiperSlide key={testimonial.id} className="swiper-slide">
                     <div className="testimonail-common-items">
                       <div className="ratting d-flex align-items-center justify-content-between">
-                        <img 
-                          src="/assets/img/icon/quote-left.svg" 
-                          alt="" 
+                        <img
+                          src={getAssetPath("/assets/img/icon/quote-left.svg")}
+                          alt="quote"
+                          className="img-fluid"
                           aria-hidden="true"
                         />
                         <div className="stars">
@@ -91,10 +93,10 @@ export default function TestimoniaHomeOne() {
                       </div>
                       <p>{testimonial.content}</p>
                       <div className="review-man d-flex align-items-center">
-                        <img 
-                          src={testimonial.image}
+                        <img
+                          src={getAssetPath(testimonial.image)}
                           alt={testimonial.author}
-                          className="rounded-circle me-3"
+                          className="img-fluid rounded-circle me-3"
                           style={{ 
                             width: '70px', 
                             height: '70px', 

@@ -1,3 +1,5 @@
+import { getAssetPath } from "@/utils/pathUtils";
+
 interface ServiceHomeOneProps {
   style_2?: boolean;
 }
@@ -26,7 +28,7 @@ export default function ServiceHomeOne({ style_2 = false }: ServiceHomeOneProps)
           >
             <div className="service-itemsv1">
               <img
-                src="/assets/img/icon/count3.svg"
+                src={getAssetPath("/assets/img/icon/count3.svg")}
                 alt="Icône produits laitiers"
                 className="icons"
               />
@@ -42,7 +44,7 @@ export default function ServiceHomeOne({ style_2 = false }: ServiceHomeOneProps)
           >
             <div className="service-itemsv1">
               <img
-                src="/assets/img/icon/wheat-sesh.svg"
+                src={getAssetPath("/assets/img/icon/wheat-sesh.svg")}
                 alt="Icône innovation laitière"
                 className="icons"
               />
@@ -58,7 +60,7 @@ export default function ServiceHomeOne({ style_2 = false }: ServiceHomeOneProps)
           >
             <div className="service-itemsv1">
               <img
-                src="/assets/img/icon/smart-flower.svg"
+                src={getAssetPath("/assets/img/icon/smart-flower.svg")}
                 alt="Icône lait frais"
                 className="icons"
               />

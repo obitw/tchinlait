@@ -1,3 +1,5 @@
+import { getAssetPath } from "@/utils/pathUtils";
+
 export default function HeroHomeOne() {
   return (
     <section className="banner-section style-v1 overflow-hidden">
@@ -30,7 +32,7 @@ export default function HeroHomeOne() {
               data-wow-delay="0.5s"
             >
               <img
-                src="/assets/img/banner/hero1.png"
+                src={getAssetPath("/assets/img/banner/hero1.png")}
                 alt="Produits Tchin-Lait"
                 className="mimg"
                 style={{ width: "60%", height: "auto" }}

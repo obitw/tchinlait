@@ -1,3 +1,5 @@
+import { getAssetPath } from "@/utils/pathUtils";
+
 export default function AboutHomeOne() {
   return (
     <section className="about-section style-v01 section-padding white-bg">
@@ -6,7 +8,7 @@ export default function AboutHomeOne() {
           <div className="col-lg-6 col-md-6 col-sm-8 order-md-0 order-1">
             <div className="about-thumv01 position-relative">
               <img
-                src="/assets/img/about/choose-man.png"
+                src={getAssetPath("/assets/img/about/choose-man.png")}
                 alt="À propos de Candia Algérie"
                 className="mimg"
               />
