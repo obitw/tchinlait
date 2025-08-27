@@ -26,9 +26,19 @@ export default function HeaderOne({ style_2 }: PropsType) {
           <div className="mega-menu-wrapper">
             <div className="header-main">
               <div className="header-left">
-                <div className="logo">
+                <div className="logo" style={{ maxWidth: '200px' }}>
                   <Link href="/" className="header-logo">
-                    <img src="assets/img/logo/logo.png" alt="logo-img" />
+                    <img 
+                      src="assets/img/logo/logo.png" 
+                      alt="logo-img" 
+                      style={{ 
+                        width: '100%',
+                        height: 'auto',
+                        maxHeight: '80px',
+                        objectFit: 'contain',
+                        padding: '5px 0'
+                      }} 
+                    />
                   </Link>
                 </div>
               </div>

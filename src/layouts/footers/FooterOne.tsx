@@ -14,11 +14,17 @@ export default function FooterOne() {
               >
                 <div className="single-footer-widget">
                   <div className="widget-head">
-                    <Link href="/" className="footer-logo">
+                    <Link href="/" className="footer-logo" style={{ display: 'inline-block', maxWidth: '200px' }}>
                       <img
                         src="assets/img/logo/logo.png"
                         alt="logo-candia"
-                        style={{ maxHeight: '200px', width: 'auto' }}
+                        style={{
+                          width: '100%',
+                          height: 'auto',
+                          maxHeight: '120px',
+                          objectFit: 'contain',
+                          padding: '10px 0'
+                        }}
                       />
                     </Link>
                   </div>
